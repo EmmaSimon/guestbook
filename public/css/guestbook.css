@@ -1,0 +1,104 @@
+@charset 'UTF-8';
+
+/*General*/
+	body
+	{
+		background-color: #E6E6E6;
+	}
+
+	body,input,textarea,select
+	{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: #191919;
+	}
+
+	.button
+	{
+		padding: 0.5em;
+		margin-bottom: 1em;
+		background-color: #B2B2B2;
+		color: #191919;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.button:active
+	{
+		color: #999999;
+	}
+
+	.button:hover
+	{
+		background-color: #CCCCCC;
+	}
+
+/* Table */
+	table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+			
+	tbody tr
+	{
+		text-align: left;
+		background-color: #E6E6E6;
+	}
+	
+	td
+	{
+		background-color: #808080;
+		padding: 0.5em 1em 0.5em 1em;
+		border-right: solid 2px #E6E6E6;
+	}
+	
+	th
+	{
+		background-color: #808080;
+		text-align: left;
+		font-weight: 600;
+		padding: 0.5em 1em 0.5em 1em;
+		border-right: solid 2px #E6E6E6;
+		border-bottom: solid 2px #E6E6E6;
+	}
+
+/* Form */
+
+	form input[type="text"],
+	form select,
+	form textarea
+	{
+		background: #808080;
+		padding: 0.75em;
+		border: solid 0px;
+		margin-bottom: 0.5em;
+		width: 20%;
+	}
+
+	form input[type="text"]:focus,
+	form select:focus,
+	form textarea:focus
+	{
+		background: #f8f8f8;
+	}
+
+	form input[type="submit"]
+	{
+		border: solid 0px #E6E6E6;*/
+		font-weight: 500;
+		background-color: #B2B2B2;
+		color: #191919;
+		padding: .5em;
+	}
+
+	form input[type="submit"]:hover
+	{
+		background-color: #CCCCCC;
+		cursor: pointer;
+	}
+
+	form input[type="submit"]:active
+	{
+		color: #999999;
+	}	
